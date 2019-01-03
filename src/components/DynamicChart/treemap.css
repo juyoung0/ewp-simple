@@ -1,0 +1,18 @@
+rect:hover{
+    cursor: pointer;
+}
+
+rect.node-rect.active{
+    stroke: blue !important;
+    stroke-width:3px !important;
+}
+
+rect.node-rect.selected{
+    stroke: blue !important;
+    stroke-width:3px !important;
+}
+
+rect.node-rect{
+    stroke: #333;
+    stroke-width:1px;
+}

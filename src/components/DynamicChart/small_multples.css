@@ -1,0 +1,15 @@
+.small_multi:hover {
+    cursor: pointer;
+    border: 5px solid blue;
+}
+.small_multi.selected{
+    border: 5px solid cornflowerblue;
+}
+
+.small_multi.hovered{
+    border: 5px solid #4d4dff;
+}
+
+.small_multi {
+    border: 5px solid white;
+}

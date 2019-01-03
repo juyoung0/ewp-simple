@@ -1,0 +1,28 @@
+.explorer {
+    background: white;
+}
+
+.explorer .node-exp rect {
+    cursor: pointer;
+    fill: #fff;
+    stroke: none;
+    stroke-width: 0px;
+    z-index: -100;
+}
+
+.explorer .node-exp text {
+    font: 12px sans-serif;
+    pointer-events: none;
+}
+
+.explorer .link {
+    fill: none;
+    stroke: #333;
+    stroke-width: 2px;
+}
+
+.explorer rect.active{
+    z-index: 10;
+    stroke: chocolate;
+    stroke-width: 3px;
+}

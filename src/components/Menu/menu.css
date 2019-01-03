@@ -1,0 +1,9 @@
+.menu-group {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display: block;
+}
+
+.menu-group span{
+    padding-top: 7px;
+}

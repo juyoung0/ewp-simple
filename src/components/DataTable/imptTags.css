@@ -1,0 +1,19 @@
+.dta {
+    font-size: 9px;
+}
+.dta table{
+    width: 100% !important;
+}
+.search{
+    width: 100%;
+}
+.search input{
+    width: 100% !important;
+}
+.impt-table {
+    font-size: 9px;
+}
+
+.dataTables_scroll {
+    width: 100%;
+}

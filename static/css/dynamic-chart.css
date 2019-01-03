@@ -1,0 +1,44 @@
+#dyn_chart.axis text {
+    font: 10px sans-serif;
+}
+#dyn_chart.chartTitle {
+    font-size: 12px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+#dyn_chart.axis .title {
+    font-weight: bold;
+    text-anchor: middle;
+}
+#dyn_chart.axis path,
+#dyn_chart.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+#dyn_chart.x.axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+#dyn_chart.nav .area {
+    fill: lightgrey;
+    stroke-width: 0px;
+}
+#dyn_chart.nav .line {
+    fill: none;
+    stroke: darkgrey;
+    stroke-width: 1px;
+}
+#dyn_chart.viewport {
+    stroke: grey;
+    fill: black;
+    fill-opacity: 0.3;
+}
+#dyn_chart.viewport #dyn_chart.extent {
+    fill: green;
+}
+#dyn_chart.well {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

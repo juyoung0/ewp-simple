@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.btn{
+    font-size: 13px;
+}
+
+.badge{
+    font-weight: 200;
+}
+.badge-secondary{
+    background: #65737e;
+}
+.input-sm{
+    height: 25px;
+}
+

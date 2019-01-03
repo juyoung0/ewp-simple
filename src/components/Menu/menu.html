@@ -1,0 +1,35 @@
+<div style="background: white">
+    <div class="" style="margin-bottom: 3px">
+        <div class="menu-group">
+            <pre id='timer' style="text-align: center;margin-bottom: 0px">test</pre>
+        </div>
+        <div class="menu-group btn-group btn-group-justified" id="tree_legend">
+
+        </div>
+        <div class="menu-group btn-group btn-group-justified">
+            <span class="label label-default" for="err_rate" style="width: 100%;margin-right: 2px">Error Probability (%)</span>
+            <input id="input_err_rate" type="text" placeholder="Default : 1"
+                   style="box-sizing: border-box;width: 100%" class="form-control input-sm">
+        </div>
+        <div class="menu-group  btn-group btn-group-justified">
+            <span class="label label-default" for="interval" style="width: 100%;margin-right: 2px">Interval (sec)</span>
+            <input id="input_interval" id="interval" placeholder="Default : 60"
+                   style="box-sizing: border-box;width: 100%"
+                   class="form-control input-sm">
+        </div>
+
+        <div class="menu-group btn-group btn-group-sm btn-group-justified" style="display: block">
+            <span class="btn-corr-all btn btn-sm btn-default btn-corr active " style="border: solid 1px">All</span>
+            <span class="btn-corr-affected btn btn-sm btn-default btn-corr " style="border-top: solid 1px;border-bottom: solid 1px">Affected</span>
+            <span class="btn-corr-affecting btn btn-sm btn-default btn-corr " style="border: solid 1px">Affecting</span>
+        </div>
+    </div>
+    <div class="btn-group btn-group-xs btn-group-justified">
+        <button id='btn_update' class="btn btn-xs btn-primary btn-update" style="width: 100%">Update</button>
+        <button id='btn_save' class="btn btn-xs btn-warning btn-save" style="width: 100%">Save</button>
+    </div>
+
+    <div id="svgdataurl"></div>
+    <div id="pngdataurl"></div>
+    <canvas id="save_canvas" style="display: none"></canvas>
+</div>

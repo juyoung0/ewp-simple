@@ -1,0 +1,15 @@
+.node-sunburst.selected{
+    stroke: cornflowerblue !important;
+    stroke-width: 2px !important;
+}
+
+.node-sunburst.active{
+    stroke: blue !important;
+    stroke-width:2px !important;
+}
+
+.node-sunburst:hover {
+    cursor: pointer;
+    stroke: blue !important;
+    stroke-width:2px !important;
+}
